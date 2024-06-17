@@ -7,8 +7,6 @@ import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.UUID;
-
 @Getter
 @Setter
 @Entity
@@ -16,7 +14,7 @@ public class Cliente {
 
     @Id
     @GeneratedValue
-    private UUID id;
+    private Long id;
 
     private String nome;
 

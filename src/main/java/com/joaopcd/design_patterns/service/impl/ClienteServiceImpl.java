@@ -3,8 +3,6 @@ package com.joaopcd.design_patterns.service.impl;
 import com.joaopcd.design_patterns.model.Cliente;
 import com.joaopcd.design_patterns.service.ClienteService;
 
-import java.util.UUID;
-
 public class ClienteServiceImpl implements ClienteService {
 
     @Override
@@ -13,7 +11,7 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
-    public Cliente buscarCliente(UUID id) {
+    public Cliente buscarCliente(Long id) {
         return null;
     }
 
@@ -23,12 +21,12 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
-    public void atualizarCliente(UUID id, Cliente cliente) {
+    public void atualizarCliente(Long id, Cliente cliente) {
 
     }
 
     @Override
-    public void deletarCliente(UUID id) {
+    public void deletarCliente(Long id) {
 
     }
 }
