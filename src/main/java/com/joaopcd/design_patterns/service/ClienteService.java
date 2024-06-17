@@ -2,7 +2,6 @@ package com.joaopcd.design_patterns.service;
 
 import com.joaopcd.design_patterns.model.Cliente;
 
-
 public interface ClienteService {
 
     Iterable<Cliente> buscarTodosClientes();

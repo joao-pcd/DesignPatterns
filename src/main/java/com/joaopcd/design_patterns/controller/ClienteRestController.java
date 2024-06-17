@@ -13,6 +13,7 @@ public class ClienteRestController {
     @Autowired
     private ClienteService clienteService;
 
+
     @GetMapping
     public ResponseEntity<Iterable<Cliente>> buscarTodosClientes() {
         return ResponseEntity.ok(clienteService.buscarTodosClientes());
